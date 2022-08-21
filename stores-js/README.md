@@ -4,7 +4,10 @@
 `npx create-nx-workspace@latest stores-js --preset=react`   
 
 ## Convert App to JavaScript (by default: TypeScript)
-`npx nx g @nrwl/react:app bike-store-js --js`
+`npx nx g @nrwl/react:app bike-store-js --js`  
+
+## Serve
+`npx nx serve bike-store-js`
 
 # StoresJs  
 

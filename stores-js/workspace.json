@@ -2,8 +2,6 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "bike-store": "apps/bike-store",
-    "bike-store-e2e": "apps/bike-store-e2e",
     "bike-store-js": "apps/bike-store-js",
     "bike-store-js-e2e": "apps/bike-store-js-e2e"
   }
