@@ -1,18 +1,18 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/stores-js-e2e/src",
+  "sourceRoot": "apps/bike-store-js-e2e/src",
   "projectType": "application",
   "targets": {
     "e2e": {
       "executor": "@nrwl/cypress:cypress",
       "options": {
-        "cypressConfig": "apps/stores-js-e2e/cypress.config.ts",
-        "devServerTarget": "stores-js:serve:development",
+        "cypressConfig": "apps/bike-store-js-e2e/cypress.config.ts",
+        "devServerTarget": "bike-store-js:serve:development",
         "testingType": "e2e"
       },
       "configurations": {
         "production": {
-          "devServerTarget": "stores-js:serve:production"
+          "devServerTarget": "bike-store-js:serve:production"
         }
       }
     },
@@ -20,10 +20,10 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/stores-js-e2e/**/*.{js,ts}"]
+        "lintFilePatterns": ["apps/bike-store-js-e2e/**/*.js"]
       }
     }
   },
   "tags": [],
-  "implicitDependencies": ["stores-js"]
+  "implicitDependencies": ["bike-store-js"]
 }

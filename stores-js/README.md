@@ -1,6 +1,12 @@
+# npx  
 
+## Create Workspace React
+`npx create-nx-workspace@latest stores-js --preset=react`   
 
-# StoresJs
+## Convert App to JavaScript (by default: TypeScript)
+`npx nx g @nrwl/react:app bike-store-js --js`
+
+# StoresJs  
 
 This project was generated using [Nx](https://nx.dev).
 

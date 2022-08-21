@@ -27,18 +27,18 @@
   "generators": {
     "@nrwl/react": {
       "application": {
-        "style": "scss",
+        "style": "css",
         "linter": "eslint",
         "babel": true
       },
       "component": {
-        "style": "scss"
+        "style": "css"
       },
       "library": {
-        "style": "scss",
+        "style": "css",
         "linter": "eslint"
       }
     }
   },
-  "defaultProject": "stores-js"
+  "defaultProject": "bike-store-js"
 }
